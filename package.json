@@ -1,0 +1,29 @@
+{
+  "name": "ResidenceFrance",
+  "version": "1.2.0",
+  "description": "Make your trip to France a comfortable one.",
+  "author": "Jeremy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.5.4",
+    "@nuxtjs/robots": "^2.4.2",
+    "@nuxtjs/sitemap": "^2.0.1",
+    "aos": "^2.3.4",
+    "install": "^0.13.0",
+    "npm": "^6.13.4",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.0.0",
+    "nuxt-jsonld": "^1.4.5",
+    "vue-fb-customer-chat": "^0.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.2.2",
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
