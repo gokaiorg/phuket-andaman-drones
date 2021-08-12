@@ -35,6 +35,6 @@ export default {
     tlist03: 'Matrice 300 RTK',
     desc03: 'The Matrice 300 RTK sets a new standard for industrial drones by combining intelligence with high-performance and unrivaled..',
     seemore: 'Book',
-    anchor: 'https://phuketandamandrones.com/#places'
+    anchor: 'https://phuketandamandrones.com/#drones'
   }
 }

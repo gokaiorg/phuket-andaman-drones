@@ -16,13 +16,13 @@
         bg-white"
       id="nav-content">
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
-        <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="mr-10">
+        <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="ml-10 md:ml-0 mr-10">
           <a
             :href="`${$t('discover.anchor')}`">
             {{ $t('discover.title') }}
           </a>
         </li>
-        <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="mr-10">
+        <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="ml-10 md:ml-0 mr-10">
           <a
             :href="`${$t('contact.anchor')}`">
             {{ $t('contact.title') }}

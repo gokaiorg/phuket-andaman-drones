@@ -22,7 +22,8 @@ export default {
     submit: 'Envoyer',
     description: 'Description de la page contact',
     url: 'https://phuketandamandrones.com/fr/contact',
-    image: 'https://phuketandamandrones.com/banner-landing.jpg'
+    image: 'https://phuketandamandrones.com/banner-landing.jpg',
+    anchor: 'https://phuketandamandrones.com/fr/#contact'
   },
   discover: {
     name: 'drones',
@@ -34,6 +35,6 @@ export default {
     tlist03: 'Matrice 300 RTK',
     desc03: 'The Matrice 300 RTK est le standart',
     seemore: 'Réserver',
-    anchor: 'https://phuketandamandrones.com/fr/#logements'
+    anchor: 'https://phuketandamandrones.com/fr/#drones'
   }
 }
