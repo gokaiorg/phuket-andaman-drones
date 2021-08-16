@@ -1,6 +1,6 @@
 <template>
 
-  <section :id="`${$t('discover.name')}`" class="bg-white py-10 pt-0 mt-16">
+  <section :id="`${$t('discover.name')}`" class="bg-white pb-0 pt-8 md:pt-16 mt-16">
 
     <div class="container max-w-5xl mx-auto m-8">
       <h2
