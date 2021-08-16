@@ -1,9 +1,9 @@
 <template>
 
-  <section id="front-banner" class="w-full relative overflow-hidden p-16 z-10 m-auto text-center text-white">
+  <section id="front-banner" class="w-full relative overflow-hidden px-4 py-10 md:p-16 z-10 m-auto text-center text-white">
 
-    <div class="w-8/12 xl:w-6/12 relative z-10 m-auto">
-      <h1 class="text-5xl font-bold" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">{{ $t('index.title') }}</h1>
+    <div class="w-full md:w-8/12 xl:w-6/12 relative z-10 md:m-auto">
+      <h1 class="text-4xl md:text-5xl font-bold" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">{{ $t('index.title') }}</h1>
       <p class="mt-6 mb-10 text-3xl" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">{{ $t('index.p1') }}</p>
       <form-newsletter/>
     </div>

@@ -7,9 +7,9 @@
         action="https://phuketandamandrones.us4.list-manage.com/subscribe/post?u=76943d13e5caaa74124d20d5c&amp;id=58477d2ab6"
         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
         novalidate>
-        <div id="mc_embed_signup_scroll" class="flex items-center text-2xl">
+        <div id="mc_embed_signup_scroll" class="flex flex-col md:flex-row items-center text-2xl">
           <input :placeholder="`${ $t('newsletter.placeholder') }`" type="email" value="" name="EMAIL"
-                 class="required email w-full outline-none p-5 focus:outline-none" id="mce-EMAIL">
+                 class="required email w-full outline-none p-5 mb-4 md:mb-0 focus:outline-none" id="mce-EMAIL">
           <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>

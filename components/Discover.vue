@@ -1,6 +1,6 @@
 <template>
 
-  <section :id="`${$t('discover.name')}`" class="bg-white py-10 pt-0">
+  <section :id="`${$t('discover.name')}`" class="bg-white py-10 pt-0 mt-16">
 
     <div class="container max-w-5xl mx-auto m-8">
       <h2
@@ -9,7 +9,7 @@
 
       <div class="flex flex-col md:flex-row">
 
-        <div class="flex flex-wrap w-full md:w-4/12 mx-4">
+        <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
           <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
                style="background-image: url('discover-1.jpg')">
           </div>
@@ -28,7 +28,7 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap w-full md:w-4/12 mx-4">
+        <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
           <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
                style="background-image: url('discover-1.jpg')">
           </div>
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap w-full md:w-4/12 mx-4">
+        <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
           <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
                style="background-image: url('discover-1.jpg')">
           </div>
