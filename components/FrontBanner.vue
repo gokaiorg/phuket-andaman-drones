@@ -1,6 +1,6 @@
 <template>
 
-  <section id="front-banner" class="w-full relative overflow-hidden px-4 py-10 md:p-16 z-10 m-auto text-center text-white">
+  <section id="front-banner" class="w-full relative overflow-hidden px-4 py-10 md:px-16 md:py-32 z-10 m-auto text-center text-white">
 
     <div class="w-full md:w-8/12 xl:w-6/12 relative z-10 md:m-auto">
       <h1 class="text-4xl md:text-5xl font-bold" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">{{ $t('index.title') }}</h1>
