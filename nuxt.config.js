@@ -111,8 +111,7 @@ export default {
       }
     }],
     ['@nuxtjs/robots', {
-      UserAgent: '*',
-      Disallow: '/'
+      UserAgent: '*'
     }],
     '@nuxtjs/sitemap'
   ],
