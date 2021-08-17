@@ -19,7 +19,7 @@
                                                                                     name="b_76943d13e5caaa74124d20d5c_58477d2ab6"
                                                                                     tabindex="-1" value=""></div>
           <div class="clear"><input type="submit" :value="`${ $t('newsletter.button') }`" name="subscribe"
-                                    id="mc-embedded-subscribe" class="btn hover:bg-blue-700"></div>
+                                    id="mc-embedded-subscribe" class="btn"></div>
         </div>
       </form>
 

@@ -1,5 +1,5 @@
 {
-  "name": "ResidenceFrance",
+  "name": "PhuketAndamanDrones",
   "version": "1.2.0",
   "description": "Make your trip to France a comfortable one.",
   "author": "Jeremy",
@@ -11,19 +11,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.5.4",
-    "@nuxtjs/robots": "^2.4.2",
-    "@nuxtjs/sitemap": "^2.0.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "aos": "^2.3.4",
     "install": "^0.13.0",
-    "npm": "^6.13.4",
-    "nuxt": "^2.0.0",
+    "npm": "^6.14.14",
+    "nuxt": "^2.15.8",
     "nuxt-i18n": "^6.0.0",
-    "nuxt-jsonld": "^1.4.5",
+    "nuxt-jsonld": "^1.5.2",
     "vue-fb-customer-chat": "^0.2.0"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.2.2",
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^1.4.1"
   }
 }

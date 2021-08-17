@@ -7,7 +7,7 @@ html, body, div[id*="nuxt"], div[id*="layout"] {
 }
 
 .btn {
-  @apply bg-blue-600 text-white font-bold p-5 block;
+  @apply bg-yellow-400 text-black font-bold p-5 block;
   cursor: pointer;
 }
 .btn-white {
