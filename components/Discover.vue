@@ -10,7 +10,7 @@
       <div class="flex flex-col md:flex-row">
 
         <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
-          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
+          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover bg-no-repeat bg-center h-56 w-full p-3"
                style="background-image: url('discover-1.jpg')">
           </div>
           <div data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out" class="w-full p-3">
@@ -29,38 +29,26 @@
         </div>
 
         <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
-          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
-               style="background-image: url('discover-1.jpg')">
+          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover bg-no-repeat bg-center h-56 w-full p-3"
+               style="background-image: url('discover-3.jpg')">
           </div>
           <div data-aos="fade-up" data-aos-delay="800" data-aos-easing="ease-in-out" class="w-full p-3">
             <div class="align-middle">
               <h3 class="text-2xl text-gray-800 font-bold leading-none mb-2">{{ $t('discover.tlist02') }}</h3>
               <p class="text-gray-600 mb-8">{{ $t('discover.desc02') }}<br><br>
-                <!--                <nuxt-link-->
-                <!--                  to="/contact"-->
-                <!--                  class="btn inline-block bg-white text-gray-800 bg-blue-200 font-bold rounded-full py-4 px-8 shadow-lg"-->
-                <!--                >-->
-                <!--                  {{ $t('discover.seemore') }}-->
-                <!--                </nuxt-link>-->
               </p>
             </div>
           </div>
         </div>
 
         <div class="flex flex-wrap w-full md:w-4/12 md:mx-4">
-          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover h-40 w-full p-3"
-               style="background-image: url('discover-1.jpg')">
+          <div data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" class="bg-cover bg-no-repeat bg-center h-56 w-full p-3"
+               style="background-image: url('discover-2.jpg')">
           </div>
           <div data-aos="fade-up" data-aos-delay="1200" data-aos-easing="ease-in-out" class="w-full p-3">
             <div class="align-middle">
               <h3 class="text-2xl text-gray-800 font-bold leading-none mb-2">{{ $t('discover.tlist03') }}</h3>
               <p class="text-gray-600 mb-8">{{ $t('discover.desc03') }}<br><br>
-                <!--                <nuxt-link-->
-                <!--                  to="/contact"-->
-                <!--                  class="btn inline-block bg-white text-gray-800 bg-blue-200 font-bold rounded-full py-4 px-8 shadow-lg"-->
-                <!--                >-->
-                <!--                  {{ $t('discover.seemore') }}-->
-                <!--                </nuxt-link>-->
               </p>
             </div>
           </div>

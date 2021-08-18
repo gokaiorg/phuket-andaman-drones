@@ -4,7 +4,7 @@
 
     <app-header/>
 
-    <main role="main" class="md:flex-1 z-0 mt-16">
+    <main role="main" class="md:flex-1 z-0 mt-8 md:mt-16">
 
       <nuxt/>
 

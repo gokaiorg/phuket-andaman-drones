@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="m-auto md:my-24 p-10 bg-gray-800 text-white sm:w-9/12">
+  <section id="contact" class="m-auto md:my-24 p-10 bg-black text-white sm:w-9/12">
     <h2 data-aos="fade-up" data-aos-delay="0" data-aos-easing="ease-in-out" class="w-full mb-10 text-5xl font-bold leading-tight text-center text-white aos-init aos-animate">
       {{ $t('contact.title') }}
     </h2>

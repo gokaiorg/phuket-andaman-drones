@@ -29,7 +29,7 @@ export default {
     name: 'missions',
     title: 'Missions',
     tlist01: 'Research',
-    desc01: 'Research.',
+    desc01: 'Research',
     tlist02: 'Commercial',
     desc02: 'Commercial',
     tlist03: 'Spreading',
