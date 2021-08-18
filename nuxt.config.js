@@ -1,40 +1,5 @@
 
 export default {
-  mode: 'universal',
-  /*
-  ** Headers of the page
-  */
-  /*
-** Router configuration
-*/
-  router: {
-    scrollBehavior: async (to, from, savedPosition) => {
-      if (savedPosition) {
-        return savedPosition
-      }
-
-      const findEl = async (hash, x) => {
-        return document.querySelector(hash) ||
-          new Promise((resolve, reject) => {
-            if (x > 50) {
-              return resolve()
-            }
-            setTimeout(() => { resolve(findEl(hash, ++x || 1)) }, 100)
-          })
-      }
-
-      if (to.hash) {
-        let el = await findEl(to.hash)
-        if ('scrollBehavior' in document.documentElement.style) {
-          return window.scrollTo({ top: el.offsetTop, behavior: 'smooth' })
-        } else {
-          return window.scrollTo(0, el.offsetTop)
-        }
-      }
-
-      return { x: 0, y: 0 }
-    }
-  },
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -65,16 +30,10 @@ export default {
     { src: '~/plugins/aos', mode: 'client' }
   ],
   /*
-  ** Nuxt.js dev-modules
-  */
-  devModules: [
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
-  ],
-  /*
   ** Nuxt.js modules
   */
   buildModules: [
+    '@nuxtjs/tailwindcss',
     ['@nuxtjs/google-analytics', {
       id: 'UA-155344033-1'
     }]
