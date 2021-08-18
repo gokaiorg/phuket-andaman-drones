@@ -37,22 +37,28 @@
         </li>
         <li data-aos="fade-left" data-aos-delay="1200" data-aos-easing="ease" data-aos-offset="0" >
 
+<!--          <nuxt-link-->
+<!--            v-for="locale in $i18n.locales"-->
+<!--            v-if="locale.code !== $i18n.locale"-->
+<!--            :key="locale.code"-->
+<!--            :to="switchLocalePath(locale.code)"-->
+<!--            class="btn-white"-->
+<!--          >-->
+<!--             <span-->
+<!--               class="text-gray-400"-->
+<!--               v-for="locale in $i18n.locales"-->
+<!--               v-if="locale.code === $i18n.locale"-->
+<!--             >-->
+<!--            {{ locale.name }} - -->
+<!--          </span>-->
+<!--            {{ locale.name }}-->
+<!--          </nuxt-link>-->
           <nuxt-link
-            v-for="locale in $i18n.locales"
-            v-if="locale.code !== $i18n.locale"
-            :key="locale.code"
-            :to="switchLocalePath(locale.code)"
             class="btn-white"
-          >
-             <span
-               class="text-gray-400"
-               v-for="locale in $i18n.locales"
-               v-if="locale.code === $i18n.locale"
-             >
-            {{ locale.name }} -
-          </span>
-            {{ locale.name }}
-          </nuxt-link>
+            v-for="locale in availableLocales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)">
+            {{ locale.name }}</nuxt-link>
         </li>
 
       </ul>
@@ -83,6 +89,11 @@
       changeLocale(locale) {
         this.$i18n.setLocaleCookie(locale)
         this.$router.push(this.switchLocalePath(locale))
+      }
+    },
+    computed: {
+      availableLocales () {
+        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
       }
     },
     data() {

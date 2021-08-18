@@ -3,7 +3,7 @@
   <div data-aos="fade-right" data-aos-easing="ease" data-aos-offset="0" class="flex ml-3 mr-auto">
     <nuxt-link
       class="whitespace-no-wrap flex font-avenir text-black font-medium text-xl md:text-2xl items-center no-underline hover:no-underline"
-      :to="localePath('index')"
+      :to="localePath('/')"
       :alt="`${ $t('sitename') }`"
       :title="`${ $t('sitename') }`"
     >

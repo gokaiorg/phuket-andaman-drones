@@ -14,7 +14,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#000' },
   /*
   ** Global CSS
   */
@@ -33,42 +33,36 @@ export default {
   ** Nuxt.js modules
   */
   buildModules: [
-    '@nuxtjs/tailwindcss',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-155344033-1'
-    }]
+    '@nuxtjs/tailwindcss'
+    // ['@nuxtjs/google-analytics', {
+    //   id: 'UA-XXX'
+    // }]
   ],
   modules: [
     ['@nuxtjs/axios'],
-    ['nuxt-i18n', {
-      lazy: true,
-      baseUrl: 'https://phuketandamandrones.com',
-      seo: true,
-      locales: [
-        {
-          name: 'FR',
-          code: 'fr',
-          iso: 'fr-FR',
-          file: 'fr-FR.js'
-        },
-        {
-          name: 'EN',
-          code: 'en',
-          iso: 'en-EN',
-          file: 'en-EN.js'
-        },
-      ],
-      loadLanguagesAsync: true,
-      langDir: 'lang/',
-      defaultLocale: 'en',
-      parsePages: false,
-      pages: {
-        index: {
-          en: '/',
-          fr: '/'
-        }
+    [
+      '@nuxtjs/i18n',
+      {
+        baseUrl: 'https://phuketandamandrones.com',
+        locales: [
+          {
+            name: 'FR',
+            code: 'fr',
+            iso: 'fr-FR',
+            file: 'fr-FR.js'
+          },
+          {
+            name: 'EN',
+            code: 'en',
+            iso: 'en-EN',
+            file: 'en-EN.js'
+          }
+        ],
+        loadLanguagesAsync: true,
+        langDir: 'lang/',
+        defaultLocale: 'en'
       }
-    }],
+    ],
     ['@nuxtjs/robots', {
       UserAgent: '*'
     }],
