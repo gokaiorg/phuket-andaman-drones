@@ -66,7 +66,6 @@
     </div>
     <div class="block lg:hidden">
       <button
-        @click="toggle"
         id="nav-toggle"
         class="p-4 outline-none bg-white">
         <svg class="text-black h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title>
