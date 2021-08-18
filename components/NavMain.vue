@@ -79,18 +79,8 @@
 </template>
 
 <script>
-
   export default {
     name: "NavMain",
-    methods: {
-      toggle() {
-        this.open = !this.open
-      },
-      changeLocale(locale) {
-        this.$i18n.setLocaleCookie(locale)
-        this.$router.push(this.switchLocalePath(locale))
-      }
-    },
     computed: {
       availableLocales () {
         return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)

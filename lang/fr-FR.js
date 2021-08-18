@@ -23,7 +23,7 @@ export default {
     description: 'Description de la page contact',
     url: 'https://phuketandamandrones.com/fr/contact',
     image: 'https://phuketandamandrones.com/banner-landing.jpg',
-    anchor: 'https://phuketandamandrones.com/fr/#contact'
+    anchor: 'https://phuketandamandrones.com/fr#contact'
   },
   discover: {
     name: 'missions',
@@ -35,7 +35,7 @@ export default {
     tlist03: 'Épandages ',
     desc03: 'Épandages',
     seemore: 'Book',
-    anchor: 'https://phuketandamandrones.com/fr/#missions'
+    anchor: 'https://phuketandamandrones.com/fr#missions'
   },
   drones: {
     name: 'drones',
@@ -49,6 +49,6 @@ export default {
     tlist04: 'Phantom 4 RTK',
     desc04: 'Le Phantom 4 RTK peut atteindre une distance d\'échantillonnage au sol (GSD) de 2,74 cm à 100 mètres d\'altitude de vol.',
     seemore: 'Book',
-    anchor: 'https://phuketandamandrones.com/fr/#drones'
+    anchor: 'https://phuketandamandrones.com/fr#drones'
   }
 }
