@@ -4,6 +4,7 @@
 
       <FrontBanner/>
       <Discover/>
+      <Drones/>
       <FormContact/>
 
   </div>
@@ -15,6 +16,7 @@
   import FrontBanner from '~/components/FrontBanner.vue'
   import Hero from '~/components/Hero.vue'
   import Discover from '~/components/Discover.vue'
+  import Drones from '~/components/Drones.vue'
   import FormContact from '~/components/FormContact.vue'
 
   export default {
@@ -23,6 +25,7 @@
       Hero,
       FrontBanner,
       Discover,
+      Drones,
       FormContact
     },
     metaInfo: {},

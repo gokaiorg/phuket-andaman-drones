@@ -24,6 +24,12 @@
         </li>
         <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="ml-4 md:ml-0 mr-10">
           <a
+            :href="`${$t('drones.anchor')}`">
+            {{ $t('drones.title') }}
+          </a>
+        </li>
+        <li data-aos="fade-left" data-aos-delay="1000" data-aos-easing="ease" data-aos-offset="0" class="ml-4 md:ml-0 mr-10">
+          <a
             :href="`${$t('contact.anchor')}`">
             {{ $t('contact.title') }}
           </a>
