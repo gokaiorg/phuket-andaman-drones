@@ -2,7 +2,6 @@
 
   <div data-aos="fade-right" data-aos-easing="ease" data-aos-offset="0" class="flex ml-3 mr-auto">
     <nuxt-link
-      @click=scrollToTop()
       class="whitespace-no-wrap flex font-avenir text-black font-medium text-xl md:text-2xl items-center no-underline hover:no-underline"
       :to="localePath('/')"
       :alt="`${ $t('sitename') }`"
@@ -20,17 +19,3 @@
   </div>
 
 </template>
-
-
-<script>
-
-  export default {
-    name: "Logo",
-    methods: {
-      scrollToTop() {
-        window.scrollTo({ top: 0 });
-      }
-    }
-  }
-</script>
-

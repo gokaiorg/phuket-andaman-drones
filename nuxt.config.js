@@ -27,7 +27,7 @@ export default {
   plugins: [
     '~/plugins/jsonld',
     { src: '~/plugins/vue-fb-customer-chat.js', ssr: false },
-    { src: '~/plugins/aos', mode: 'client' }
+    { src: '~/plugins/aos', ssr: false }
   ],
   /*
   ** Nuxt.js modules
