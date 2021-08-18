@@ -35,7 +35,7 @@ export default {
     tlist03: 'Épandages ',
     desc03: 'Épandages',
     seemore: 'Book',
-    anchor: 'https://phuketandamandrones.com/#missions'
+    anchor: 'https://phuketandamandrones.com/fr/#missions'
   },
   drones: {
     name: 'drones',
@@ -49,6 +49,6 @@ export default {
     tlist04: 'Phantom 4 RTK',
     desc04: 'Le Phantom 4 RTK peut atteindre une distance d\'échantillonnage au sol (GSD) de 2,74 cm à 100 mètres d\'altitude de vol.',
     seemore: 'Book',
-    anchor: 'https://phuketandamandrones.com/#drones'
+    anchor: 'https://phuketandamandrones.com/fr/#drones'
   }
 }
