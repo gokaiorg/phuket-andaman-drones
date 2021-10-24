@@ -8,7 +8,11 @@
     <!--        </n-link>-->
     <!--      </li>-->
     <div class="m-2">
-       @ 2021 Phuket Andaman Drones
+      @2021 Phuket Andaman Drones
+      <br>
+      403/61 Palm Privilege, Tambon Chalong, A Muang, 83130 Phuket
+      <br>
+      +66 6 53 84 35 51
     </div>
   </div>
 
